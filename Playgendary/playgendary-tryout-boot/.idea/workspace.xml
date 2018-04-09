@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c07ccf1b-e2e7-4598-bc2a-7e310e20f170" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Cvazer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/ModelBeansConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/PersistenceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/RoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/NoEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/TemporalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/WorkPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/EmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/RoomRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/WorkPeriodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/ReservationControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/RoomControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/.idea/artifacts/playgendary_tryout_pure_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/.idea/modules/playgendary-tryout-pure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/database/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/MainInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/configurations/MainConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/configurations/PersistenceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/configurations/RestSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../playgendary-tryout-pure/src/main/java/com/github/cvazer/tryout/playgendary/pure/security/RestAuthenticationProvider.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$ReservationRepoTest.ic" NAME="ReservationRepoTest Coverage Results" MODIFIED="1523188958744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.repositories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$AllTests.ic" NAME="AllTests Coverage Results" MODIFIED="1523249861692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$ReservationControllerTest.ic" NAME="ReservationControllerTest Coverage Results" MODIFIED="1523185373986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$DatabaseEmployeeServiceTest.ic" NAME="DatabaseEmployeeServiceTest Coverage Results" MODIFIED="1523241889548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$DatabaseRoomServiceTest.ic" NAME="DatabaseRoomServiceTest Coverage Results" MODIFIED="1523241896644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$DatabaseWorkPeriodServiceTest.ic" NAME="DatabaseWorkPeriodServiceTest Coverage Results" MODIFIED="1523248281413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$EmployeeControllerTest.ic" NAME="EmployeeControllerTest Coverage Results" MODIFIED="1523183724662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$WorkPeriodControllerTest.ic" NAME="WorkPeriodControllerTest Coverage Results" MODIFIED="1523187192639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$WorkPeriodRepoTest.ic" NAME="WorkPeriodRepoTest Coverage Results" MODIFIED="1523192897697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.repositories.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$RoomControllerTest.ic" NAME="RoomControllerTest Coverage Results" MODIFIED="1523185993372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1523249195909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/playgendary_tryout_boot$DatabaseReservationServiceTest.ic" NAME="DatabaseReservationServiceTest Coverage Results" MODIFIED="1523246904046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.cvazer.tryout.playgendary.services.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="DATABASE: database" type="c8e2528e:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="DATABASE: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+        <item name="DATABASE: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+        <item name="RESERVATION: table" type="e4ce7bd9:H2ImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="playgendary-tryout-boot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="playgendary-tryout-boot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="playgendary-tryout-boot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="playgendary-tryout-boot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Program Files\Gradle\current" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.6" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="playgendary-tryout-boot" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="playgendary-tryout-boot" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'playgendary-tryout-boot'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'playgendary-tryout-boot'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'playgendary-tryout-boot'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'playgendary-tryout-boot'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4569398581902" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="128264827" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3126357262" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.1.RELEASE/51cf92fbcfec4ec864ebe186123083209908475a/spring-boot-gradle-plugin-2.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.1.RELEASE/4fb4f581eef802bec93f060411811e3d178c8190/spring-boot-gradle-plugin-2.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/e9f2761e13da4228793ee5fcaa983889e68c4c61/dependency-management-plugin-1.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.1.RELEASE/a993eae7019f5387642326d35f42c5c90b0ca174/spring-boot-loader-tools-2.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.1.RELEASE/a74a3907b0c6570ab9cefc26e611806dc89ca2be/spring-boot-loader-tools-2.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.5.RELEASE/ab32a4d2b281d459b431a5494a270a64b207490f/spring-core-5.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.5.RELEASE/1bd9feb1d9dac6accd27f5244b6c47cfcb55045c/spring-core-5.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.5.RELEASE/a5e61818e96b5a7645b65946af8e5a238137804d/spring-jcl-5.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.5.RELEASE/f4a2854b9d865e8b86717595aec16f877f8c6489/spring-jcl-5.0.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="playgendary-tryout-boot" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Program Files/Gradle/current/lib/ant-1.9.9.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-base-services-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-build-cache-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-build-option-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-cli-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-core-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-core-api-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-docs-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-launcher-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-logging-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-messaging-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-model-core-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-native-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-process-services-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-resources-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/gradle-wrapper-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-announce-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-antlr-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-build-comparison-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-composite-builds-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-dependency-management-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-ide-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-language-groovy-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-language-java-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-maven-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-osgi-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-platform-jvm-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-platform-play-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-plugins-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-reporting-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-resources-sftp-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-testing-jvm-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="C:/Program Files/Gradle/current/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/PersistanceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/NoElementException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/NoElementException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/NoEntityException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/DateSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/NoEntityException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/RoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/RoomController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/ReservationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/TemporalException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/WorkTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/WorkTimeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/WorkTimeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/WorkTimeRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkTimeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/WorkPeriod.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/ReservationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/EmployeeRepoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/ModelBeansConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/WorkPeriodService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/RoomRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/EmployeeRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/PersistenceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/ReservationControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/RoomControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodServiceTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="playgendary-tryout-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playgendary-tryout-boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.cvazer.tryout.playgendary.services" />
+      <recent name="com.github.cvazer.tryout.playgendary.repositories" />
+      <recent name="com.github.cvazer.tryout.playgendary.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programming\Git\Tryouts\Playgendary\playgendary-tryout-boot\src\test\resources" />
+      <recent name="E:\Programming\Git\Tryouts\Playgendary\playgendary-tryout-boot\src\main\java\com\github\cvazer\tryout\playgendary\security" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.playgendary-tryout-boot [bootJar]">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="playgendary-tryout-boot [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="playgendary-tryout-boot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="playgendary-tryout-boot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="playgendary-tryout-boot [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit">
+      <module name="playgendary-tryout-boot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="playgendary-tryout-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.cvazer.tryout.playgendary.Application" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AllTests" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Gradle.playgendary-tryout-boot [build]" />
+      <item itemvalue="Gradle.playgendary-tryout-boot [clean]" />
+      <item itemvalue="Gradle.playgendary-tryout-boot [bootJar]" />
+      <item itemvalue="Gradle.playgendary-tryout-boot [jar]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.playgendary-tryout-boot [jar]" />
+        <item itemvalue="Gradle.playgendary-tryout-boot [bootJar]" />
+        <item itemvalue="Gradle.playgendary-tryout-boot [clean]" />
+        <item itemvalue="Gradle.playgendary-tryout-boot [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c07ccf1b-e2e7-4598-bc2a-7e310e20f170" name="Default" comment="" />
+      <created>1523015819690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523015819690</updated>
+      <workItem from="1523015820870" duration="65139000" />
+      <workItem from="1523180894430" duration="23208000" />
+      <workItem from="1523248917868" duration="6799000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 24m 56s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 25m 39s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 26m 44s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 28m 11s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 28m 26s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 29m 40s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DatabaseWorkPeriodServiceTest - 2018.04.09 at 07h 31m 23s.xml">
+      <configuration name="DatabaseWorkPeriodServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.04.09 at 07h 31m 40s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.04.09 at 07h 46m 44s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2018.04.09 at 07h 57m 51s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="95146000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053304" side_tool="true" weight="0.29847494" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49946696" weight="0.4117647" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5054466" side_tool="true" weight="0.2217484" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24786781" />
+      <window_info anchor="right" id="Bean Validation" order="2" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49946696" weight="0.15359478" />
+      <window_info anchor="right" id="Database" order="0" weight="0.18656716" />
+      <window_info anchor="right" id="Gradle" order="1" sideWeight="0.4945534" visible="true" weight="0.2217484" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32897604" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://c380ea94-9691-4f1d-9d13-8e6a3373610e/database/DATABASE/schema/PUBLIC/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c380ea94-9691-4f1d-9d13-8e6a3373610e/database/DATABASE/schema/PUBLIC/table/WORK_TIME">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/WorkTimeRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/WorkTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/WorkTimeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/WorkTimeService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkTimeService.java" />
+    <entry file="das://c380ea94-9691-4f1d-9d13-8e6a3373610e/database/DATABASE/schema/PUBLIC/table/RESERVATION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c380ea94-9691-4f1d-9d13-8e6a3373610e/database/DATABASE/schema/PUBLIC/table/WORK_PERIOD">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.0.5.RELEASE/970a3ead6eb81f6d67967913bf915f7565d1a39f/spring-test-5.0.5.RELEASE-sources.jar!/org/springframework/test/web/client/MockRestServiceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.15.0/46e8ee5e6fdfaee85be74093e324d53c881e0567/mockito-core-2.15.0-sources.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="2097" column="24" selection-start-line="2097" selection-start-column="24" selection-end-line="2097" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/ModelBeansConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/NoEntityException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/exceptions/TemporalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/model/WorkPeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.0.1.RELEASE/dcde22acaa16879454b517f9730740604dd89231/spring-boot-test-2.0.1.RELEASE-sources.jar!/org/springframework/boot/test/context/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.29/ae3f9bea9f746a6d7b1f6804935853846088df31/tomcat-embed-core-8.5.29-sources.jar!/org/apache/tomcat/util/IntrospectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/RoomRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="138" selection-start-line="26" selection-start-column="138" selection-end-line="26" selection-end-column="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/WorkPeriodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/repositories/EmployeeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/cvazer/tryout/playgendary/configurations/PersistenceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseEmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="66" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseWorkPeriodServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/WorkPeriodRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseRoomServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="66" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/services/DatabaseReservationServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="30" selection-end-line="248" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/repositories/ReservationRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="75" column="142" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/WorkPeriodControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/RoomControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="26" selection-end-line="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/ReservationControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="141" selection-end-line="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/cvazer/tryout/playgendary/controllers/EmployeeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="55" column="16" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|playgendary-tryout-boot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

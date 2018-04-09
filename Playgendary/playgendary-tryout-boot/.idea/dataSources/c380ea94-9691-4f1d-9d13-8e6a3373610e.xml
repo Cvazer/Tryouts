@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="database">
+  <database-model serializer="dbm" rdbms="H2" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="DATABASE">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="5" parent="4" name="EMPLOYEE"/>
+    <table id="6" parent="4" name="RESERVATION"/>
+    <table id="7" parent="4" name="ROOM"/>
+    <table id="8" parent="4" name="WORK_PERIOD"/>
+    <column id="9" parent="5" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_AB3CC800_E34F_464E_A640_70021CF70946)</DefaultExpression>
+    </column>
+    <column id="10" parent="5" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="11" parent="5" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="12" parent="5" name="SURNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <key id="13" parent="5" name="CONSTRAINT_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="14" parent="6" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_5E87F355_DDA0_4EA9_83F6_EE010D64407B)</DefaultExpression>
+    </column>
+    <column id="15" parent="6" name="END">
+      <Position>2</Position>
+      <DataType>TIMESTAMP(23,10)|93s</DataType>
+    </column>
+    <column id="16" parent="6" name="START">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(23,10)|93s</DataType>
+    </column>
+    <column id="17" parent="6" name="EMPLOYEE_ID">
+      <Position>4</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+    </column>
+    <column id="18" parent="6" name="ROOM_ID">
+      <Position>5</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+    </column>
+    <key id="19" parent="6" name="CONSTRAINT_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="20" parent="6" name="FKOQ2IACDGT8VAL8V26JN0IW83Q">
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>CONSTRAINT_7</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="21" parent="6" name="FKM8XUMI0G23038CW32OIVA2YMW">
+      <ColNames>ROOM_ID</ColNames>
+      <RefSchemaName>PUBLIC</RefSchemaName>
+      <RefTableName>ROOM</RefTableName>
+      <RefKeyName>CONSTRAINT_26</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="22" parent="7" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_3F4908BA_AB36_4E34_AE59_E037D946C023)</DefaultExpression>
+    </column>
+    <column id="23" parent="7" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <key id="24" parent="7" name="CONSTRAINT_26">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="8" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT(19)|-5s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_D9D5BE34_CAE0_4929_8A62_6E167EE9933E)</DefaultExpression>
+    </column>
+    <column id="26" parent="8" name="END">
+      <Position>2</Position>
+      <DataType>TIME(6)|92s</DataType>
+    </column>
+    <column id="27" parent="8" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="28" parent="8" name="START">
+      <Position>4</Position>
+      <DataType>TIME(6)|92s</DataType>
+    </column>
+    <key id="29" parent="8" name="CONSTRAINT_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
