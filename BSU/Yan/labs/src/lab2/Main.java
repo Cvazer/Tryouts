@@ -10,7 +10,7 @@ public class Main {
         planes.get(0).getPath().addAll(Arrays.asList("Москва", "Минск", "Москва"));
     }
 
-    public static void main(String[] args) {
+    public static void exec(String[] args) {
         boolean running = true;
         Scanner scanner = new Scanner(System.in);
         while (running){

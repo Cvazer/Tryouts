@@ -9,7 +9,7 @@ import java.util.*;
 public class Main {
     private static List<Company> companies = new ArrayList<>();
 
-    public static void main(String[] args) {
+    public static void exec(String[] args) {
 
         File xml = new File("data.xml");
         if (xml.exists()){getFromFile(xml);}
