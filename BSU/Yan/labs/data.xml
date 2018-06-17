@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<companies>
+    <company name="c1">
+        <aerobus consumes="8" cargo="120" lift="8600" length="120000"/>
+        <tu132 consumes="6" cargo="80" lift="8800" length="86000"/>
+        <tu132 consumes="6" cargo="80" lift="8800" length="82000"/>
+        <tu132 consumes="6" cargo="80" lift="8800" length="84000"/>
+    </company>
+    <company name="c2">
+        <aerobus consumes="8" cargo="120" lift="8600" length="220000"/>
+        <aerobus consumes="8" cargo="120" lift="8600" length="1230000"/>
+        <aerobus consumes="8" cargo="120" lift="8600" length="2100000"/>
+        <aerobus consumes="8" cargo="120" lift="8600" length="1560000"/>
+    </company>
+    <company name="c3">
+        <aerobus consumes="8" cargo="120" lift="8600" length="0"/>
+        <tu132 consumes="6" cargo="80" lift="8800" length="0"/>
+    </company>
+</companies>
